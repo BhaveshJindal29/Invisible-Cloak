@@ -1,4 +1,4 @@
-#this file captures the background image and saves it on the local system\
+#this file captures the background image and saves it on the local system
 #the image captured by this program will used in the file "invisible_cloak.py"
 
 import cv2
