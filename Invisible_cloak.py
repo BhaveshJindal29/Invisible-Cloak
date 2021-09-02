@@ -11,7 +11,7 @@ while cap.isOpened():
 
 
         #defining the HSV range
-        #note : this project creates the mask for red color if you want to do it for some other color then change these HSV values values
+        #note : this project creates the mask for red color if you want to do it for some other color then change these HSV values 
         l_red = np.array([0,120,70])
         u_red = np.array([10,255,255])
         mask1 = cv2.inRange(hsv_frame,l_red,u_red)
